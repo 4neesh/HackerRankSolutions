@@ -10,16 +10,6 @@ public class ClimbingTheLeaderboard {
 
     // Complete the climbingLeaderboard function below.
 
-    static int[] climbingLeaderboard(int[] scoresToAddToLeaderboard, int[] aliceScores) {
-
-        int[] a = new int[10];
-        return a;
-
-    }
-
-    private static List<Integer> sortAndDistinctLeaderboard(List<Integer> currentLeaderboard){
-        return currentLeaderboard.stream().distinct().sorted().collect(Collectors.toList());
-    }
 
     private static final Scanner scanner = new Scanner(System.in);
 
@@ -56,9 +46,8 @@ public class ClimbingTheLeaderboard {
             aliceResult[i] = obtainAliceRank(aliceItem, rankArray,scores );
         }
 
-        int[] result = climbingLeaderboard(scores, alice);
         System.out.println("FINISHED");
-        
+
         scanner.close();
     }
 
