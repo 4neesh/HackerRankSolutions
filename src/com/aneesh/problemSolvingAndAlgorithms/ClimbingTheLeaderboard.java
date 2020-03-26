@@ -1,8 +1,7 @@
 package com.aneesh.problemSolvingAndAlgorithms;
 
-import java.io.*;
-import java.util.*;
-import java.util.stream.Collectors;
+import java.io.IOException;
+import java.util.Scanner;
 
 //link to challenge: https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
 
@@ -43,7 +42,7 @@ public class ClimbingTheLeaderboard {
         for (int i = 0; i < aliceCount; i++) {
             int aliceItem = Integer.parseInt(aliceItems[i]);
             alice[i] = aliceItem;
-            aliceResult[i] = obtainAliceRank(aliceItem, rankArray,scores );
+            aliceResult[i] = obtainAliceRank(aliceItem, rankArray, scores);
         }
 
         System.out.println("FINISHED");
@@ -51,13 +50,13 @@ public class ClimbingTheLeaderboard {
         scanner.close();
     }
 
-    static int[] buildRankArray(int[] scores){
+    static int[] buildRankArray(int[] scores) {
 
         int rankIndex = 1;
         int[] rankArrayToReturn = new int[scores.length];
-        for(int i = 0; i< scores.length; i++){
+        for (int i = 0; i < scores.length; i++) {
 
-            if(i > 0 && scores[i] != scores[i-1]){
+            if (i > 0 && scores[i] != scores[i - 1]) {
                 rankIndex++;
             }
             rankArrayToReturn[rankIndex] = scores[i];
@@ -67,23 +66,21 @@ public class ClimbingTheLeaderboard {
         return rankArrayToReturn;
     }
 
-    static int obtainAliceRank(int aliceScore, int[] rankArray, int[] scoreArray){
+    static int obtainAliceRank(int aliceScore, int[] rankArray, int[] scoreArray) {
 
         int lower = 0;
         int upper = scoreArray.length;
         int currentAliceRank = 0;
-        while(lower <= upper){
-            int middle = upper + lower /2;
+        while (lower <= upper) {
+            int middle = upper + lower / 2;
 
-            if(aliceScore == scoreArray[middle]){
-                currentAliceRank =  rankArray[middle];
+            if (aliceScore == scoreArray[middle]) {
+                currentAliceRank = rankArray[middle];
                 break;
-            }
-            else if(aliceScore < middle){
+            } else if (aliceScore < middle) {
                 currentAliceRank = rankArray[middle] + 1;
                 lower = middle + 1;
-            }
-            else{
+            } else {
                 upper = middle + 1;
             }
 
