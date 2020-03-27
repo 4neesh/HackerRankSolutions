@@ -68,10 +68,13 @@ public class ClimbingTheLeaderboard {
 
     static int obtainAliceRank(int aliceScore, int[] rankArray, int[] scoreArray) {
 
+        //recursive design pattern to handle large array lengths
+
         int lower = 0;
         int upper = scoreArray.length;
         int currentAliceRank = 0;
         while (lower <= upper) {
+
             int middle = upper + lower / 2;
 
             if (aliceScore == scoreArray[middle]) {
