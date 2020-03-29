@@ -1,4 +1,4 @@
-package com.aneesh.problemSolvingAndAlgorithms;
+package com.aneesh.archive;
 
 import java.io.IOException;
 import java.util.*;
@@ -48,9 +48,11 @@ public class NonDivisibleSubset4 {
     public static void main(String[] args) throws IOException {
         int k = 4;
         List<Integer> s = Arrays.asList(19, 10, 12, 24, 22, 25);
-        int result = Result4.nonDivisibleSubset(k, s);
+        int result = com.aneesh.problemSolvingAndAlgorithms.Result4.nonDivisibleSubset(k, s);
         System.out.println(result);
 
     }
 }
+
+
 
