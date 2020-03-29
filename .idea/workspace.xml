@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd78c05-976b-4c4b-aaa6-e3b33772b12b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/FileCopier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Result2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Result3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Result4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset5.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,10 +62,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset5.java">
+        <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -88,12 +96,13 @@
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard5.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard.java" />
-        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset2.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset3.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset4.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset5.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset4.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset5.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java" />
       </list>
     </option>
   </component>
@@ -174,22 +183,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileCopier">
+  <component name="RunManager" selected="Application.NonDivisibleSubset5">
     <configuration name="FileCopier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.FileCopier" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aneesh.problemSolvingAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonDivisibleSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aneesh.archive.NonDivisibleSubset" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -240,13 +236,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NonDivisibleSubset5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.NonDivisibleSubset5" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aneesh.problemSolvingAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NonDivisibleSubset5" />
         <item itemvalue="Application.FileCopier" />
         <item itemvalue="Application.NonDivisibleSubset4" />
         <item itemvalue="Application.NonDivisibleSubset3" />
         <item itemvalue="Application.NonDivisibleSubset2" />
-        <item itemvalue="Application.NonDivisibleSubset" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +276,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -276,7 +285,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,18 +394,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#334#358#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset5.java">
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

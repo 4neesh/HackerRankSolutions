@@ -48,7 +48,7 @@ public class NonDivisibleSubset4 {
     public static void main(String[] args) throws IOException {
         int k = 4;
         List<Integer> s = Arrays.asList(19, 10, 12, 24, 22, 25);
-        int result = com.aneesh.problemSolvingAndAlgorithms.Result4.nonDivisibleSubset(k, s);
+        int result = com.aneesh.archive.Result4.nonDivisibleSubset(k, s);
         System.out.println(result);
 
     }
