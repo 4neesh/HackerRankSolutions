@@ -3,7 +3,13 @@ package com.aneesh.problemSolvingAndAlgorithms;
 import java.io.IOException;
 import java.util.*;
 
-public class QueensAttackIIv2 {
+/**
+ *
+ * I think it is easier to work out max moves, then calculate which
+ * obstructs are present on path and calcualting the size to the queen.
+ *
+ * */
+public class QueensAttackIIv3 {
 
         // Complete the queensAttack function below.
         static int queensAttackv2(int boardSize, int numberOfObstacles, int queen_x, int queen_y, int[][] obstacles) {

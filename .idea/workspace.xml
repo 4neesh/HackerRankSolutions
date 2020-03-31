@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdd78c05-976b-4c4b-aaa6-e3b33772b12b" name="Default Changelist" comment="" />
+    <list default="true" id="bdd78c05-976b-4c4b-aaa6-e3b33772b12b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv2.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="15" column="28" selection-start-line="15" selection-end-line="16" />
+            <state relative-caret-position="75">
+              <caret line="133" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="133" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv2.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -68,8 +76,14 @@
         <option value="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset4.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset5.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java" />
-        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv2.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv3.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Session.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Message.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/MimeMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Email.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java" />
       </list>
     </option>
   </component>
@@ -131,6 +145,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aneesh.problemSolvingAndAlgorithms" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aneesh.problemSolvingAndAlgorithms" />
     </key>
@@ -150,33 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueensAttackIIv2">
-    <configuration name="FileCopier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.FileCopier" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aneesh.problemSolvingAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonDivisibleSubset4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aneesh.archive.NonDivisibleSubset4" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aneesh.problemSolvingAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QueensAttackII">
     <configuration name="NonDivisibleSubset5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.NonDivisibleSubset5" />
       <module name="HackerRank" />
@@ -216,13 +207,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.ka" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aneesh.problemSolvingAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.test" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aneesh.problemSolvingAndAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueensAttackIIv2" />
         <item itemvalue="Application.QueensAttackII" />
+        <item itemvalue="Application.ka" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.QueensAttackIIv2" />
         <item itemvalue="Application.NonDivisibleSubset5" />
-        <item itemvalue="Application.FileCopier" />
-        <item itemvalue="Application.NonDivisibleSubset4" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +260,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -252,7 +269,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,20 +390,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java">
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="15" column="28" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="1112">
+          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#946#955#0" expanded="true" />
+            <element signature="e#1639#1648#0" expanded="true" />
+            <element signature="e#2371#2380#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        <state relative-caret-position="-34">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/MimeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Email.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="133" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="133" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
