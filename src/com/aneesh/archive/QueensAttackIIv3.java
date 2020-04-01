@@ -1,4 +1,4 @@
-package com.aneesh.problemSolvingAndAlgorithms;
+package com.aneesh.archive;
 
 import java.io.IOException;
 import java.util.*;

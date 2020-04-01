@@ -5,9 +5,8 @@ import java.util.*;
 public class QueensAttackII {
 
         // Complete the queensAttack function below.
-        static int queensAttack(int boardSize, int numberOfObstacles, int queen_x, int queen_y, int[][] obstacles) {
+        static int queensAttack(int boardSize, int numberOfObstacles, int queen_y, int queen_x, int[][] obstacles) {
 
-            boolean isQueenOnEdge = queen_x == 1  || queen_x == boardSize || queen_y == 1 || queen_y == boardSize;
             int maxMovesWithoutObstacles = findMaxMoves(boardSize, queen_x, queen_y);
             for (int[] i : obstacles){
                     if (obstacleClashes(i, queen_x, queen_y)) {
@@ -20,7 +19,6 @@ public class QueensAttackII {
                         }
                     }
                 }
-
             return maxMovesWithoutObstacles;
         }
 
@@ -33,9 +31,7 @@ public class QueensAttackII {
                 } else if (Math.abs(i[0] - queen_y) == Math.abs(i[1] - queen_x)) {
                     clashes = true;
                 }
-
                 return clashes;
-
         }
 
         static boolean notPrecededByOther(int[] obstacle, int[][]obstacles, int queen_x, int queen_y){
@@ -144,7 +140,7 @@ public class QueensAttackII {
 
 
 
-            int result = queensAttack(boardSize, numberOfObstacles, queen_x, queen_y, obstacles);
+            int result = queensAttack(boardSize, numberOfObstacles, queen_y, queen_x, obstacles);
             System.out.println(result);
            }
     }
