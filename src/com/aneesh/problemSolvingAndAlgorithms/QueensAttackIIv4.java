@@ -14,14 +14,14 @@ public class QueensAttackIIv4 {
         static int queensAttack(int boardSize, int numberOfObstacles, int queen_y, int queen_x, int[][] obstacles) {
 
             System.out.println("obstacle count: " + obstacles.length);
-            int north = Math.abs(boardSize - queen_y);
-            int south = Math.abs(1 - queen_y);
-            int east = Math.abs(boardSize - queen_x);
-            int west = Math.abs(1 - queen_x);
-            int northEast = Math.abs(boardSize - 1 - Math.max(queen_y - 1, boardSize - queen_x));
-            int northWest = Math.abs(boardSize - 1 - Math.max(queen_y - 1, queen_x - 1));
-            int southEast = Math.abs(boardSize - 1 - Math.max(boardSize - queen_y, queen_x -1));
-            int southWest = Math.abs(boardSize - 1 - Math.max(boardSize - queen_y, boardSize - queen_x));
+            int north = boardSize - queen_y;
+            int south = queen_y -1;
+            int east = boardSize - queen_x;
+            int west = queen_x -1;
+            int northEast = Math.min(north, east);
+            int northWest = Math.min(north, west);
+            int southEast = Math.min(south, east);
+            int southWest = Math.min(south, west);
             List<Integer> directions = new ArrayList<>();
 
             //loop through obstacles and group into 8 directions
