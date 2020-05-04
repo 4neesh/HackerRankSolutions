@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd78c05-976b-4c4b-aaa6-e3b33772b12b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/aneesh/java8/CollisionHashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/ClimbingTheLeaderboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/ClimbingTheLeaderboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/ClimbingTheLeaderboard2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/ClimbingTheLeaderboard2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/ClimbingTheLeaderboard3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/ClimbingTheLeaderboard3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/ClimbingTheLeaderboard4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/ClimbingTheLeaderboard4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/NonDivisibleSubset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/NonDivisibleSubset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/NonDivisibleSubset2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/NonDivisibleSubset2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/NonDivisibleSubset3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/NonDivisibleSubset3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/NonDivisibleSubset4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/NonDivisibleSubset4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/QueensAttackII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/QueensAttackII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/QueensAttackIIv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/QueensAttackIIv2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/QueensAttackIIv3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/QueensAttackIIv3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/Result2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/Result2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/Result3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/Result3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/Result4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/archive/Result4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/BiggerIsGreater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Encryption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/MagicSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/MagicSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Result5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Result5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/BiggerIsGreater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,29 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/CollisionHashing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java">
+        <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="148">
+              <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -119,13 +74,15 @@
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/java8/CollisionHashing.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="784" />
-    <option name="width" value="1143" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1715" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -135,7 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -160,13 +116,6 @@
               <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aneesh" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HackerRankSolutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aneesh" type="462c0819:PsiDirectoryNode" />
               <item name="problemSolvingAndAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,6 +126,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.ThreeDSurfaceArea">
     <configuration name="BiggerIsGreater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.BiggerIsGreater" />
       <module name="HackerRank" />
@@ -250,7 +200,7 @@
       </method>
     </configuration>
     <configuration name="QueensAttackII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aneesh.archive.QueensAttackII" />
+      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.QueensAttackII" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -262,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueensAttackII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.QueensAttackII" />
+    <configuration name="ThreeDSurfaceArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.ThreeDSurfaceArea" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aneesh.archive.*" />
+          <option name="PATTERN" value="com.aneesh.problemSolvingAndAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeDSurfaceArea" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.BiggerIsGreater" />
         <item itemvalue="Application.Encryption" />
         <item itemvalue="Application.OrganisingContainerOfBalls" />
-        <item itemvalue="Application.QueensAttackII" />
       </list>
     </recent_temporary>
   </component>
@@ -312,10 +262,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="784" y="0" width="1143" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2299169" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20566802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +273,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41356674" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36589697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,10 +447,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/BiggerIsGreater.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -512,10 +461,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
         </state>
       </provider>
     </entry>
