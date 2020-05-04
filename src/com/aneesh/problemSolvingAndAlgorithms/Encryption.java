@@ -4,6 +4,8 @@ import static java.lang.Math.sqrt;
 
 public class Encryption {
 
+    //link to challenge: https://www.hackerrank.com/challenges/encryption/problem
+
     public static float divide;
     static String encryption(String noSpaceText) {
 

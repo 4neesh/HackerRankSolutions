@@ -3,8 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="bdd78c05-976b-4c4b-aaa6-e3b33772b12b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Encryption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/Result5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Encryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
+            <state relative-caret-position="142">
+              <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -51,7 +64,6 @@
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard3.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard4.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard5.java" />
-        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset2.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset3.java" />
@@ -59,21 +71,22 @@
         <option value="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset5.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/archive/NonDivisibleSubset4.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset5.java" />
-        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv2.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv3.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Session.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Message.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/MimeMessage.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Email.java" />
-        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackIIv4.java" />
-        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.java" />
-        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Encryption.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/BiggerIsGreater.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/java8/CollisionHashing.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Encryption.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java" />
       </list>
     </option>
@@ -263,6 +276,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20566802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -293,13 +307,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/MagicSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/scores.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/alice.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/archive/ClimbingTheLeaderboard3.java">
@@ -337,13 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -392,54 +392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Encryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/archive/QueensAttackII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="64" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -461,6 +417,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ClimbingTheLeaderboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="9" selection-start-line="5" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ExtraLongFactorials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/MagicSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/NonDivisibleSubset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/OrganisingContainerOfBalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/QueensAttackII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -470,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
+        <state relative-caret-position="142">
+          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
         </state>
       </provider>
     </entry>

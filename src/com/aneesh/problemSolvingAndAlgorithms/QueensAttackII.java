@@ -8,7 +8,8 @@ import java.util.Scanner;
 
 public class QueensAttackII {
 
-        // Complete the queensAttack function below.
+    //link to challenge: https://www.hackerrank.com/challenges/queens-attack-2/problem
+
         static int queensAttack(int boardSize, int numberOfObstacles, int queen_y, int queen_x, int[][] obstacles) {
 
             System.out.println("obstacle count: " + obstacles.length);

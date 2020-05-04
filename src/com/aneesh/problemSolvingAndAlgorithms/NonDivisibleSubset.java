@@ -3,8 +3,9 @@ package com.aneesh.problemSolvingAndAlgorithms;
 import java.io.IOException;
 import java.util.*;
 
-class Result5 {
+class NonDivSubset {
 
+    //link to challenge: https://www.hackerrank.com/challenges/non-divisible-subset/problem
 
     public static int nonDivisibleSubset(int divisor, List<Integer> valueList) {
 
@@ -49,7 +50,7 @@ public class NonDivisibleSubset {
     public static void main(String[] args) throws IOException {
         int k = 1;
         List<Integer> s = Arrays.asList(3,6,8);
-        int result = Result5.nonDivisibleSubset(k, s);
+        int result = NonDivSubset.nonDivisibleSubset(k, s);
         System.out.println("result = "  + result);
 
     }

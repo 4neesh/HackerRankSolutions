@@ -7,6 +7,7 @@ import java.util.List;
 
 public class OrganisingContainerOfBalls {
 
+    //link to challenge: https://www.hackerrank.com/challenges/organizing-containers-of-balls
 
     static String organizingContainers(int[][] container) {
 

@@ -4,7 +4,9 @@ import java.util.*;
 import java.math.BigInteger;
 
 public class ExtraLongFactorials {
-        // Complete the extraLongFactorials function below.
+
+    //link to challenge: https://www.hackerrank.com/challenges/extra-long-factorials/problem
+
         static BigInteger extraLongFactorials(int n, BigInteger factorialSum) {
 
             if(n > 2 ){
