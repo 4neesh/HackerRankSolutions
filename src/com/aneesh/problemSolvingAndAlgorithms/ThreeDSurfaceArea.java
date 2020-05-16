@@ -32,6 +32,7 @@ public class ThreeDSurfaceArea {
                 calculateInnerSurfaceArea(columnNumber,rowNumber);
 
                 if (cubeOnOuter(columnNumber, rowNumber)) {
+
                     calculateOuterSurfaceArea(columnNumber,rowNumber);
 
                 } else {
@@ -125,6 +126,6 @@ public class ThreeDSurfaceArea {
         int[][] A = {{1, 1, 2}, {1, 2, 3}};
         int surfaceArea = surfaceArea(A);
         System.out.println(surfaceArea);
-        
+
     }
 }
