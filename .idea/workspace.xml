@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd78c05-976b-4c4b-aaa6-e3b33772b12b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aneesh/java8/StdinAndStdout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/java8/CollisionHashing.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java">
+        <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/StdinAndStdout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -33,6 +35,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>11110</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ThreeDSurfaceArea.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/bonAppetit.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/java8/StdinAndStdout.java" />
       </list>
     </option>
   </component>
@@ -108,6 +116,13 @@
               <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aneesh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackerRankSolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aneesh" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HackerRankSolutions" type="b2602c69:ProjectViewProjectNode" />
@@ -157,9 +172,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheGridSearch">
-    <configuration name="BiggerIsGreater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.BiggerIsGreater" />
+  <component name="RunManager" selected="Application.StdinAndStdout">
+    <configuration name="BonAppetit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.BonAppetit" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -171,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonAppetit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.BonAppetit" />
+    <configuration name="StdinAndStdout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aneesh.java8.StdinAndStdout" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aneesh.problemSolvingAndAlgorithms.*" />
+          <option name="PATTERN" value="com.aneesh.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StdinAndStdout" />
         <item itemvalue="Application.TheGridSearch" />
         <item itemvalue="Application.BonAppetit" />
         <item itemvalue="Application.ThreeDSurfaceArea" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.BiggerIsGreater" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +265,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1892779" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3402626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,13 +391,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/BiggerIsGreater.java" />
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/CollisionHashing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/Encryption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -460,8 +468,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/TheGridSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/CollisionHashing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/StdinAndStdout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
