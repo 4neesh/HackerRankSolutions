@@ -9,10 +9,11 @@ public class TheGridSearch {
         String result = "NO";
         int gridHeight = graphArray.length;
         int patternHeight = patternArray.length;
-        int patternArrayWidth = patternArray[0].length();
+        int searchableHeight = (gridHeight - patternHeight) + 1;
+        for (int xPos = 0; xPos < searchableHeight; xPos++) {
 
-        for (int xPos = 0; xPos < (gridHeight - patternHeight) + 1; xPos++) {
             if (graphArray[xPos].contains(patternArray[0])) {
+
                 int yPos = graphArray[xPos].indexOf(patternArray[0]);
 
                 if (checkPatternMatch(graphArray, patternArray, yPos, xPos)) {
@@ -20,11 +21,10 @@ public class TheGridSearch {
                     break;
                 }
 
-                String subG = graphArray[xPos].substring(yPos + patternArrayWidth);
+                String subG = graphArray[xPos].substring(yPos + 1);
                 int offset = yPos ;
 
                 while (subG.contains(patternArray[0])) {
-                    System.out.println("printing the subg: " + subG);
 
                     yPos = subG.indexOf(patternArray[0]) + offset;
                     if (checkPatternMatch(graphArray, patternArray, yPos, xPos)) {
