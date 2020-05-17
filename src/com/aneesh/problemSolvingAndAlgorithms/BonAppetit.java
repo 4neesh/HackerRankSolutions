@@ -6,7 +6,7 @@ package com.aneesh.problemSolvingAndAlgorithms;
 import java.util.ArrayList;
 import java.util.List;
 
-public class bonAppetit {
+public class BonAppetit {
 
     static void bonAppetit(List<Integer> bill, int notEaten, int charged) {
 
