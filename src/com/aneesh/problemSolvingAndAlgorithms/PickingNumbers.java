@@ -9,9 +9,59 @@ public class PickingNumbers {
 
     //link to challenge: https://www.hackerrank.com/challenges/picking-numbers/problem
 
+    private static HashMap<Integer, Integer> hashMap;
+    private static List<Integer> listOfValues;
+    private static int keyWithHighestValue = 0;
+    private static  List<Integer> sortedKeySet;
+    private static List<List<Integer>> listOfPairedKeys;
+    private static int maxPairs = 0;
     public static int pickingNumbers(List<Integer> listOfValues) {
 
-        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        populateHashMapWithOccurence();
+
+        identifyListOfKeyPairs();
+
+        if(sortedKeySet.size() == 1){
+            return listOfValues.size();
+        }
+
+        keyWithHighestValue = hashMap.entrySet().stream().max(Comparator.comparing(Map.Entry::getValue)).get().getValue();
+
+        calculateMaxPairValue();
+
+        maxPairs = keyWithHighestValue > maxPairs ? keyWithHighestValue : maxPairs;
+
+        return maxPairs;
+    }
+
+    private static void calculateMaxPairValue() {
+        for (List<Integer> list : listOfPairedKeys){
+            int numberOfPairs = 0;
+            numberOfPairs = numberOfPairs +  hashMap.get(list.get(0));
+            numberOfPairs = numberOfPairs +  hashMap.get(list.get(1));
+            maxPairs = numberOfPairs > maxPairs ? numberOfPairs : maxPairs;
+        }
+    }
+
+    private static void identifyListOfKeyPairs() {
+
+        sortedKeySet = hashMap.keySet().stream().sorted().collect(Collectors.toList());
+        listOfPairedKeys = new ArrayList<>();
+
+        for (int i = 0; i< sortedKeySet.size() - 1; i++){
+            if(sortedKeySet.get(i) == sortedKeySet.get(i + 1) -1 ){
+                List<Integer> pairedEntry = new ArrayList<>();
+                pairedEntry.add(sortedKeySet.get(i));
+                pairedEntry.add(sortedKeySet.get(i + 1));
+                listOfPairedKeys.add(pairedEntry);
+            }
+        }
+
+    }
+
+    private static void populateHashMapWithOccurence() {
+
+        hashMap = new HashMap<>();
 
         for(int i = 0; i<listOfValues.size(); i++){
 
@@ -22,39 +72,19 @@ public class PickingNumbers {
                 hashMap.put(listOfValues.get(i), 1);
             }
         }
-
-
-        listOfValues = listOfValues.stream().distinct().collect(Collectors.toList());
-
-        int result = 0;
-        for(int i = 0; i< listOfValues.size() - 1; i++){
-
-            if (listOfValues.get(i) == listOfValues.get(i+1)+1 ){
-                if(hashMap.get(i) + hashMap.get(i+1) > result){
-                    result = hashMap.get(i) + hashMap.get(i+1);
-                }
-            }
-            else{
-                continue;
-            }
-
-        }
-
-        
-        return 7;
     }
+
     public static void main(String[] args) {
 
 
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(2);
-        list.add(3);
-        list.add(1);
-        list.add(2);
-
-        System.out.println(pickingNumbers(list));
+        listOfValues = new ArrayList<>();
+        listOfValues .add(1);
+        listOfValues .add(2);
+        listOfValues .add(2);
+        listOfValues .add(3);
+        listOfValues .add(1);
+        listOfValues .add(2);
+        System.out.println(pickingNumbers(listOfValues ));
 
     }
 }

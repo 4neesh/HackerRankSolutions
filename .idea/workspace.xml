@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd78c05-976b-4c4b-aaa6-e3b33772b12b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/aneesh/java8/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/java8/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/java8/st.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="407">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.st">
+  <component name="RunManager" selected="Application.PickingNumbers">
     <configuration name="ComparingTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.ComparingTwoArrays" />
       <module name="HackerRank" />
@@ -250,9 +253,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PickingNumbers" />
         <item itemvalue="Application.st" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.PickingNumbers" />
         <item itemvalue="Application.DrawingBook" />
         <item itemvalue="Application.ComparingTwoArrays" />
       </list>
@@ -275,7 +278,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,7 +287,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28602383" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28602383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="407">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
