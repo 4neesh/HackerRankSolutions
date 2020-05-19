@@ -9,28 +9,29 @@ public class PickingNumbers {
 
     //link to challenge: https://www.hackerrank.com/challenges/picking-numbers/problem
 
-    public static int pickingNumbers(List<Integer> a) {
+    public static int pickingNumbers(List<Integer> listOfValues) {
 
-        HashMap<Integer, Integer> hmap = new HashMap<>();
-        a = a.stream().sorted().collect(Collectors.toList());
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
 
-        for(int i = 0; i<a.size(); i++){
+        for(int i = 0; i<listOfValues.size(); i++){
 
-            if(hmap.containsKey(a.get(i))){
-                hmap.compute(a.get(i), (c,d) -> d = d + 1);
+            if(hashMap.containsKey(listOfValues.get(i))){
+                hashMap.compute(listOfValues.get(i), (c,d) -> d = d + 1);
             }
             else {
-                hmap.put(a.get(i), 1);
+                hashMap.put(listOfValues.get(i), 1);
             }
         }
 
-        a = a.stream().distinct().collect(Collectors.toList());
-        int result = 0;
-        for(int i = 0; i< a.size() - 1; i++){
 
-            if (a.get(i) == a.get(i+1)+1 ){
-                if(hmap.get(i) + hmap.get(i+1) > result){
-                    result = hmap.get(i) + hmap.get(i+1);
+        listOfValues = listOfValues.stream().distinct().collect(Collectors.toList());
+
+        int result = 0;
+        for(int i = 0; i< listOfValues.size() - 1; i++){
+
+            if (listOfValues.get(i) == listOfValues.get(i+1)+1 ){
+                if(hashMap.get(i) + hashMap.get(i+1) > result){
+                    result = hashMap.get(i) + hashMap.get(i+1);
                 }
             }
             else{
@@ -39,6 +40,7 @@ public class PickingNumbers {
 
         }
 
+        
         return 7;
     }
     public static void main(String[] args) {

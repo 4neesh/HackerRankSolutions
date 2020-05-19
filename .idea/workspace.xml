@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd78c05-976b-4c4b-aaa6-e3b33772b12b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/java8/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/java8/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/DrawingBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/aneesh/problemSolvingAndAlgorithms/DrawingBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aneesh/java8/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/java8/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/java8/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,32 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/OutputFormatting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="645">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,16 +89,16 @@
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/CountingValleys.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/ComparingTwoArrays.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/DrawingBook.java" />
-        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/aneesh/java8/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="-7" />
-    <option name="width" value="433" />
-    <option name="height" value="305" />
+    <option name="x" value="598" />
+    <option name="y" value="69" />
+    <option name="width" value="974" />
+    <option name="height" value="1059" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -206,22 +182,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.st">
     <configuration name="ComparingTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.ComparingTwoArrays" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aneesh.problemSolvingAndAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountingValleys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aneesh.problemSolvingAndAlgorithms.CountingValleys" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -272,13 +235,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="st" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aneesh.java8.st" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aneesh.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.st" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.PickingNumbers" />
         <item itemvalue="Application.DrawingBook" />
         <item itemvalue="Application.ComparingTwoArrays" />
-        <item itemvalue="Application.CountingValleys" />
       </list>
     </recent_temporary>
   </component>
@@ -296,10 +272,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -308,7 +284,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28602383" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28602383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,27 +511,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/OutputFormatting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/DrawingBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -568,8 +527,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="631">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/java8/OutputFormatting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aneesh/problemSolvingAndAlgorithms/PickingNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
