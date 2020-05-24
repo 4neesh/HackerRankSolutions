@@ -7,60 +7,81 @@ import java.util.List;
 
 public class KFactorization {
 
-        //link to problem: https://www.hackerrank.com/challenges/k-factorization/problem
+    //link to problem: https://www.hackerrank.com/challenges/k-factorization/problem
 
-        public static List<Integer> resultList = new ArrayList<>();
-        public static int target;
-        static int[] kFactorization(Integer[] values){
+    public static List<Integer> resultList = new ArrayList<>();
+    public static int target;
+
+    {
+        resultList = new ArrayList<>();
+    }
+
+
+    static int[] kFactorization(Integer[] valuesArray){
 
         int resultTarget = target;
-        Arrays.sort(values, Collections.reverseOrder());
+        Arrays.sort(valuesArray, Collections.reverseOrder());
 
         List<Integer> factorsToTarget = new ArrayList<>();
-        for(int i : values){
-            if( target % i == 0){
-                factorsToTarget.add(i);
-            }
-        }
+        factorsToTarget = populateFactorsOfTarget(factorsToTarget, valuesArray);
 
         recurseResults(factorsToTarget);
 
-        Collections.sort(resultList);
-
         int[] result = new int[resultList.size()+1];
-        result[0] = 1;
-        for (int i = 1; i<=resultList.size(); i++){
-            result[i] = result[i-1] * resultList.get(i-1);
-        }
-
-        if( resultList.size() == 0 || (resultList.size() > 0 && result[resultList.size()] != resultTarget)){
-            System.out.println("SIZE: " + resultList.size());
-            System.out.println("FAIL" + result[resultList.size()]);
-            result = new int[1];
-            result[0] = -1;
-        }
+        result = buildResultList(result, resultTarget);
 
         return result;
 
     }
 
+    private static List<Integer> populateFactorsOfTarget(List<Integer> factorsToTarget, Integer[] valuesArray) {
+        for(int i : valuesArray){
+            if( target % i == 0){
+                factorsToTarget.add(i);
+            }
+        }
+
+        return factorsToTarget;
+    }
+
+    private static int[] buildResultList(int[] results, int resultTarget){
+        Collections.sort(resultList);
+        results[0] = 1;
+
+        for (int i = 1; i<=resultList.size(); i++){
+            results[i] = results[i-1] * resultList.get(i-1);
+        }
+
+        if( resultList.size() == 0 || (resultList.size() > 0 && results[resultList.size()] != resultTarget)){
+
+            results = new int[1];
+            results[0] = -1;
+
+        }
+
+        return results;
+    }
+
     private static void recurseResults(List<Integer> factorsToTarget) {
 
-        if(factorsToTarget.size() == 0 || resultListEquals()){
+        if(factorsToTarget.size() == 0 || checkEndGame()){
             return;
         }
+
         List<Integer> temporaryFactors = new ArrayList<>();
-        for(int i = 1; i< factorsToTarget.size(); i++){
-            temporaryFactors.add(factorsToTarget.get(i));
-        }
 
         if(target % factorsToTarget.get(0) == 0){
 
             resultList.add(factorsToTarget.get(0));
             target = target / factorsToTarget.get(0);
+
+            repopulateFactorsForNewTarget(factorsToTarget, temporaryFactors);
+
             recurseResults(temporaryFactors);
         }
         else{
+
+            repopulateFactorsForNewTarget(factorsToTarget, temporaryFactors);
 
             recurseResults(temporaryFactors);
         }
@@ -68,7 +89,17 @@ public class KFactorization {
 
     }
 
-    private static boolean resultListEquals() {
+    private static void repopulateFactorsForNewTarget(
+            List<Integer> factorsToTarget, List<Integer> temporaryFactors) {
+
+        for(int i : factorsToTarget){
+            if(target % i == 0) {
+                temporaryFactors.add(i);
+            }
+        }
+    }
+
+    private static boolean checkEndGame() {
 
         int resultListValue = 1;
         for(int i : resultList){
@@ -83,17 +114,15 @@ public class KFactorization {
         }
     }
 
-    public static void main(String[] args) {
-
-        Integer[] values = {2,3,4};
-        target = 12;
-        int[] resulter = kFactorization(values);
-        for(int y : resulter){
-            System.out.println(y);
-
-        }
-
+    public static void setTarget(int targetInt){
+        target = targetInt;
     }
 
+
+    public int[] getResult(Integer[] valuesArray, int target){
+
+        setTarget(target);
+        return kFactorization(valuesArray);
+    }
 
 }
